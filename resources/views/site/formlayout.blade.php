@@ -8,8 +8,8 @@
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 <body>
-    <div class="container-sm mt-5">
-        <form action="#" class="row border b-3 g-2 justify-content-around align-items-center">
+    <div class="container-sm mt-3 mb-5">
+        <form action="{{route('store')}}" method="POST" class="row border border-3 border-info rounded g-2 justify-content-around align-items-center">
             <div class="col-md-4">
                 <label for="iname" class="form-label">Nome</label>
                 <input type="text" class="form-control" name="name" id="iname">
@@ -65,7 +65,7 @@
             <div class="row g-2 justify-content-around">
                 <div class="col-md-4">
                     <label for="icomplement" class="form-label">Complemento</label>
-                    <input type="text" class="form-control" name="complement" id="complement">
+                    <input type="text" class="form-control" name="complement" id="icomplement">
                 </div>
                 <div class="col-md-4">
                     <label for="idistrict" class="form-label">Bairro</label>
@@ -73,20 +73,45 @@
                 </div>
             </div>
             <div class="row g-2 justify-content-around">
-                <div class="col-md-6">
-                    <label for="icomplement" class="form-label">Complemento</label>
-                    <input type="text" class="form-control" name="complement" id="complement">
+                <div class="col-md-5">
+                    <label for="icity" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" name="city" id="icity">
                 </div>
-                <div class="col-md-2">
-                    <label for="idistrict" class="form-label">Bairro</label>
-                    <input type="text" class="form-control" name="district" id="idistrict">
+                <div class="col-md-3">
+                    <label for="istate" class="form-label">Estado</label>
+                    <select class="form-select" name="state" id="istate">
+                        <option selected>selecione</option>
+                        <option value="Acre (AC)">Acre (AC)</option>
+                        <option value="Alagoas (AL)">Alagoas (AL)</option>
+                        <option value="Amapá (AP)">Amapá (AP)</option>
+                        <option value="Amazonas (AM)">Amazonas (AM)</option>
+                        <option value="Bahia (BA)">Bahia (BA)</option>
+                        <option value="Ceará (CE)">Ceará (CE)</option>
+                        <option value="Distrito Federal (DF)">Distrito Federal (DF)</option>
+                        <option value="Espírito Santo (ES)">Espírito Santo (ES)</option>
+                        <option value="Goiás (GO)">Goiás (GO)</option>
+                        <option value="Maranhão (MA)">Maranhão (MA)</option>
+                        <option value="Mato Grosso (MT)">Mato Grosso (MT)</option>
+                        <option value="Mato Grosso do Sul (MS)">Mato Grosso do Sul (MS)</option>
+                        <option value="Minas Gerais (MG)">Minas Gerais (MG)</option>
+                        <option value="Pará (PA)">Pará (PA)</option>
+                        <option value="Paraíba (PB)">Paraíba (PB)</option>
+                        <option value="Paraná (PR)">Paraná (PR)</option>
+                        <option value="Pernambuco (PE)">Pernambuco (PE)</option>
+                        <option value="Piauí (PI)">Piauí (PI)</option>
+                        <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+                        <option value="Rio Grande do Norte (RN)">Rio Grande do Norte (RN)</option>
+                        <option value="Rio Grande do Sul (RS)">Rio Grande do Sul (RS)</option>
+                        <option value="Rondônia (RO)">Rondônia (RO)</option>
+                        <option value="Roraima (RR)">Roraima (RR)</option>
+                        <option value="Santa Catarina (SC)">Santa Catarina (SC)</option>
+                        <option value="São Paulo (SP)">São Paulo (SP)</option>
+                        <option value="Sergipe (SE)">Sergipe (SE)</option>
+                        <option value="Tocantins (TO)">Tocantins (TO)</option>
+                    </select>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 mt-5 mb-5">
-                    <button type="button" class="col-md-2 btn btn-success" value="cadastrar">Cadastrar</button>
-                </div>
-            </div>
+            <input type="submit" class="btn btn-primary mt-5 mb-3 col-4" value="Cadastrar">
         </form>
     </div>
 </body>
