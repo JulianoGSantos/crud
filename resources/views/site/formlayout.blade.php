@@ -10,6 +10,7 @@
 <body>
     <div class="container-sm mt-3 mb-5">
         <form action="{{route('store')}}" method="POST" class="row border border-3 border-info rounded g-2 justify-content-around align-items-center">
+            @csrf
             <div class="col-md-4">
                 <label for="iname" class="form-label">Nome</label>
                 <input type="text" class="form-control" name="name" id="iname">
