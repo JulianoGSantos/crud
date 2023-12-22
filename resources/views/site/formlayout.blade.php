@@ -13,74 +13,139 @@
             @csrf
             <div class="col-md-4">
                 <label for="iname" class="form-label">Nome</label>
-                <input type="text" class="form-control" name="name" id="iname">
+                <input type="text" class="form-control @error('name') is invalid @enderror" name="name" id="iname">
+                @error('name')
+                    <div class="invalid-feedback text-red-600">
+                        {{$message}}
+                    </div>
+                @enderror
             </div>
             <div class="col-md-4">
                 <label for="ilastname" class="form-label">Sobrenome</label>
-                <input type="text" class="form-control" name="lastname" id="ilastname">
+                <input type="text" class="form-control @error('lastname') is invalid @enderror" name="lastname" id="ilastname">
+                @error('lastname')
+                    <div class="invalid-feedback text-red-600">
+                        {{$message}}
+                    </div>
+                @enderror
             </div>
             <div class="row g-2 justify-content-around">
                 <div class="col-md-4">
                     <label for="igender" class="form-label">Sexo</label>
-                    <select class="form-select" name="gender" id="igender">
+                    <select class="form-select @error('gender') is invalid @enderror" name="gender" id="igender">
                         <option selected>selecione</option>
                         <option value="Feminino">Feminino</option>
                         <option value="Masculino">Masculino</option>
                     </select>
+                    @error('gender')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
                 <div class="col-md-4">
                     <label for="icpf" class="form-label">CPF</label>
-                    <input type="text" class="form-control" name="cpf" id="icpf">
+                    <input type="text" class="form-control @error('cpf') is invalid @enderror" name="cpf" id="icpf">
+                    @error('cpf')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
             </div>
             <div class="row g-2 justify-content-around">
                 <div class="col-md-4">
                     <label for="iphone" class="form-label">Telefone</label>
-                    <input type="text" class="form-control" name="phone" id="iphone">
+                    <input type="text" class="form-control @error('phone') is invalid @enderror" name="phone" id="iphone">
+                    @error('phone')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
                 <div class="col-md-4">
                     <label for="icellphone" class="form-label">Celular</label>
-                    <input type="text" class="form-control" name="cellphone" id="icellphone">
+                    <input type="text" class="form-control @error('cellphone') is invalid @enderror" name="cellphone" id="icellphone">
+                    @error('cellphone')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
             </div>
             <div class="row g-2 justify-content-around">
                 <div class="col-md-4">
                     <label for="ibirth" class="form-label">Nascimento</label>
-                    <input type="date" class="form-control" name="birth" id="ibirth">
+                    <input type="date" class="form-control @error('birth') is invalid @enderror" name="birth" id="ibirth">
+                    @error('birth')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
                 <div class="col-md-4">
                     <label for="icep" class="form-label">Cep</label>
-                    <input type="text" class="form-control" name="cep" id="icep">
+                    <input type="text" class="form-control @error('cpf') is invalid @enderror" name="cep" id="icep">
+                    @error('cep')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
             </div>
             <div class="row g-2 justify-content-around">
                 <div class="col-md-6">
                     <label for="istreet" class="form-label">Rua</label>
-                    <input type="text" class="form-control" name="street" id="istreet">
+                    <input type="text" class="form-control @error('street') is invalid @enderror" name="street" id="istreet">
+                    @error('street')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
                 <div class="col-md-2">
                     <label for="inumber" class="form-label">Número</label>
-                    <input type="text" class="form-control" name="number" id="inumber">
+                    <input type="text" class="form-control @error('number') is invalid @enderror" name="number" id="inumber">
+                    @error('number')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
             </div>
             <div class="row g-2 justify-content-around">
                 <div class="col-md-4">
                     <label for="icomplement" class="form-label">Complemento</label>
-                    <input type="text" class="form-control" name="complement" id="icomplement">
+                    <input type="text" class="form-control @error('complement') is invalid @enderror" name="complement" id="icomplement">
+                    @error('complement')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
                 <div class="col-md-4">
                     <label for="idistrict" class="form-label">Bairro</label>
-                    <input type="text" class="form-control" name="district" id="idistrict">
+                    <input type="text" class="form-control @error('district') is invalid @enderror" name="district" id="idistrict">
+                    @error('district')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
             </div>
             <div class="row g-2 justify-content-around">
                 <div class="col-md-5">
                     <label for="icity" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" name="city" id="icity">
+                    <input type="text" class="form-control @error('city') is invalid @enderror" name="city" id="icity">
+                    @error('city')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
                 <div class="col-md-3">
                     <label for="istate" class="form-label">Estado</label>
-                    <select class="form-select" name="state" id="istate">
+                    <select class="form-select @error('state') is invalid @enderror" name="state" id="istate">
                         <option selected>selecione</option>
                         <option value="Acre (AC)">Acre (AC)</option>
                         <option value="Alagoas (AL)">Alagoas (AL)</option>
@@ -110,10 +175,23 @@
                         <option value="Sergipe (SE)">Sergipe (SE)</option>
                         <option value="Tocantins (TO)">Tocantins (TO)</option>
                     </select>
+                    @error('state')
+                        <div class="invalid-feedback text-red-600">
+                            {{$message}}
+                        </div>
+                    @enderror
                 </div>
             </div>
             <input type="submit" class="btn btn-primary mt-5 mb-3 col-4" value="Cadastrar">
         </form>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script>
+        $('#icpf').mask('000.000.000-00', {reverse: true});
+        $('#iphone').mask('(00) 00000-0000');
+        $('#icellphone').mask('(00) 00000-0000');
+        $('#icep').mask('00000-000');
+    </script>
 </body>
 </html>
