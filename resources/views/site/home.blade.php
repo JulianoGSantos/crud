@@ -56,7 +56,7 @@
                 <div class="row">
                     <div class="card" style="width: 47%;">
                         <div class="card-body">
-                        <h5 class="card-title fw-bold">Corrida em alta performance</h5>
+                        <h3 class="card-title fw-bold">Corrida em alta performance</h3>
                         <h6 class="card-subtitle mb-2 text-body-secondary">Nike</h6>
                         <p class="card-text mt-5">As coisas ficam melhores quando se é um membro da Nike.Tenha acesso exclusivo em primeira mão aos novos lançamentos,inovações, frete grátis, benefícios especiais de aniversário e muito mais.
                             A Nike representa uma cultura global de esporte, estilo e da busca pela grandeza. Somos apaixonados pelo potencial e acreditamos que todos deveriam ter as ferramentas para alcançar o potencial de cada um. Investimos em nossos funcionários, inspirando novas ideias, métodos e produtos que nos levam ao futuro do esporte.</p>
@@ -88,23 +88,113 @@
         </div>
     </div>
 </div>
-<div class="container-sm mt-5 mb-5">
-    <div class="d-flex flex-row gap-5 g-2">
+<div class="container-sm mt-2 mb-5">
+    <div class="d-flex flex-row gap-5">
         <div class="card text-bg-dark">
-            <img src="img/sneaker.png" class="card-img" alt="..." width="50%">
+            <img src="img/relogios.png" class="card-img" alt="..." width="50%">
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Exclusivo</h5>
             </div>
         </div>
         <div class="card text-bg-dark">
-            <img src="img/sneaker.png" class="card-img" alt="..." width="50%">
+            <img src="img/fashion.png" class="card-img" alt="..." width="50%">
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Coleçao 2024</h5>
             </div>
+        </div>
+    </div>
+</div>
+<div class="container-sm mb-5">
+    <div class="card">
+        <h3 class="card-header fw-bold">Mais vendidos</h3>
+        <div class="row text-center">
+            <div class="col-3 border-end p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                </div>
+            </div>
+            <div class="col-3 border-end p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="col-3 border-end p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="col-3 p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-sm mb-5">
+    <div class="card">
+        <h3 class="card-header fw-bold">Promoções</h3>
+        <div class="row text-center">
+            <div class="col-3 border-end p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="col-3 border-end p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="col-3 border-end p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="col-3 p-3">
+                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <div class="card-body">
+                    <p class="text-muted fw-bold">Camisa pólo</p>
+                    <p class="fw-bold">R$100,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row bg-dark g-4 justify-content-center gap-5">
+        <div class="col-1 p-1">
+            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Vestuário</a>
+        </div>
+        <div class="col-1 p-1">
+            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Calçados</a>
+        </div>
+        <div class="col-1 p-1">
+            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Esportes</a>
+        </div>
+        <div class="col-1 p-1">
+            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Relógios</a>
         </div>
     </div>
 </div>
