@@ -125,10 +125,10 @@
                 </div>
             </div>
             <div class="col-3 border-end p-3">
-                <img src="img/profile.jpg" alt="profile" class="card-img-top">
+                <img src="img/esporte.png" alt="profile" class="card-img-top">
                 <div class="card-body">
-                    <p class="text-muted fw-bold">Camisa pólo</p>
-                    <p class="fw-bold">R$100,00</p>
+                    <p class="text-muted fw-bold">Bola</p>
+                    <p class="fw-bold">R$180,00</p>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
@@ -183,18 +183,88 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div class="row bg-dark g-4 justify-content-center gap-5">
-        <div class="col-1 p-1">
-            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Vestuário</a>
+    <div class="row bg-dark">
+        <div class="col-1">
+            .
         </div>
-        <div class="col-1 p-1">
-            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Calçados</a>
+    </div>
+    <div class="row bg-dark">
+        <div class="col-1">
+            .
         </div>
-        <div class="col-1 p-1">
-            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Esportes</a>
+    </div>
+</div>
+<div class="container-sm mt-2">
+    <div class="row gap-5 justify-content-center">
+        <div class="col-2">
+            <h5 class="fw-bold">Atendimento</h5>
+            <p class="fw-bold">telefone</p>
+            <p>(15)3272-5454</p><br>
+            <p class="fw-bold">whatsapp</p>
+            <p>(15)98132-7777</p><br>
+            <p class="fw-bold">email</p>atendimento@bestseller.com
         </div>
-        <div class="col-1 p-1">
-            <a href="#" class="bg-dark link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Relógios</a>
+        <div class="col-2">
+            <h5 class="fw-bold">Institucional</h5>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Missão</a></p>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Visão</a></p>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Valor</a></p>
+        </div>
+        <div class="col-2">
+            <h5 class="fw-bold">Categorias</h5>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Vestuário</a></p>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Calçados</a></p>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Esportes</a></p>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Relógios</a></p>
+        </div>
+        <div class="col-2">
+            <h5 class="fw-bold">Redes Sociais</h5>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Instagram</a></p>
+            <p><a href="#" class="btn btn-xl fw-bold p-0">Facebook</a></p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row bg-dark bg-opacity-10 gap-4 p-2">
+        <div class="col-5 display-6">
+            <img src="https://cdn0.iconfinder.com/data/icons/e-commerce-53/512/eCommerce_BestSellers-256.png" alt="home" width="30%">
+             Best Seller
+        </div>
+        <div class="col-4">
+            <h5 class="fw-bold">Formas de Pagamento</h5>
+            <div class="row g-4">
+                <div class="col-2">
+
+                    <img src="https://cdn3.iconfinder.com/data/icons/credit-cards-icon-set/64/Visa.png" alt="visa" width="100%">
+                </div>
+                <div class="col-2">
+                    <img src="https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/mastercard-256.png" alt="mastercard" width="100%">
+                    
+                </div>
+                <div class="col-2">
+                    <img src="https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/american_express-256.png" alt="american express" width="100%">
+                    
+                </div>
+                <div class="col-2">
+                    <img src="https://cdn4.iconfinder.com/data/icons/payment-method/160/payment_method_paypal-256.png" alt="paypal" width="100%">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <h5 class="fw-bold">Nossas Redes</h5>
+            <div class="row g-4 gap-3">
+                <div class="col-2">
+                    <a href="#">
+                        <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/instagram_icon-instagram_buttoninstegram-256.png" alt="instagram" width="400%">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/83-facebook-256.png" alt="instagram" width="370%">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
