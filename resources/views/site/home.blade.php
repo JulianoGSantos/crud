@@ -11,8 +11,10 @@
     <div class="row g-4">
         <div class="col-6">
             <div class="display-6 mb-2">
-                <img src="https://cdn0.iconfinder.com/data/icons/e-commerce-53/512/eCommerce_BestSellers-256.png" alt="home" width="15%">
-                 Best Seller
+                <a href="/" class="btn btn-primary">
+                    <img src="https://cdn0.iconfinder.com/data/icons/e-commerce-53/512/eCommerce_BestSellers-256.png" alt="home" width="20%">
+                    <span class="h2"> Best Seller</span>
+                </a>
             </div>
         </div>
         <div class="col-2">
