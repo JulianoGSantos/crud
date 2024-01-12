@@ -4,36 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    @extends('site.layout')
     <title>Home</title>
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
-<header class="container-fluid border border-1 border-start-0 border-end-0 p-4">
-    <div class="row g-4">
-        <div class="col-6">
-            <div class="display-6 mb-2">
-                <a href="/" class="btn btn-primary">
-                    <img src="https://cdn0.iconfinder.com/data/icons/e-commerce-53/512/eCommerce_BestSellers-256.png" alt="home" width="20%">
-                    <span class="h2"> Best Seller</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="border p-1 rounded-end bg-warning bg-opacity-75">
-                <a href="#" class="btn btn-sm"><img src="https://cdn1.iconfinder.com/data/icons/shopping-223/33/shopping-04-256.png" alt="central de atendimento" width="20%"> Atendimento</a>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="border p-1 rounded-end bg-primary opacity-75">
-                <a href="login" class="btn btn-sm"><img src="https://cdn0.iconfinder.com/data/icons/ui-essentials-2-3/32/user_interface_ui_basic_app_ui_interface_login_login-256.png" alt="login" width="20%"> Login</a>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="border p-1 rounded-end bg-success bg-opacity-75">
-                <a href="#" class="btn btn-sm"><img src="https://cdn1.iconfinder.com/data/icons/material-core/20/shopping-cart-256.png" alt="carrinho" width="20%"> Meu carrinho</a>
-            </div>
-        </div>
-    </div>
-</header>
+@section('top')
+@endsection
+@section('content')
 <div class="container-fluid">
     <div class="row bg-dark g-4 justify-content-center gap-5">
         <div class="col-1 p-1">
@@ -62,7 +39,7 @@
                 <h4 class="card-subtitletext-body-secondary">Nike</h4>
                 <p class="card-text">As coisas ficam melhores quando se é um membro da Nike.Tenha acesso exclusivo em primeira mão aos novos lançamentos,inovações, frete grátis, benefícios especiais de aniversário e muito mais. A Nike representa uma cultura global de esporte, estilo e da busca pela grandeza. Somos apaixonados pelo potencial e acreditamos que todos deveriam ter as ferramentas para alcançar o potencial de cada um. Investimos em nossos funcionários, inspirando novas ideias, métodos e produtos que nos levam ao futuro do esporte.</p>
                 <div class="d-grid col-6 mt-4 mx-auto">
-                    <a href="#" class="btn btn-primary">Confira</a>
+                    <a href="/site/nike" class="btn btn-primary">Confira</a>
                 </div>
             </div>
         </div>
@@ -113,7 +90,8 @@
                 <img src="img/vestuario.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">Camisa Aspen</p>
-                    <p class="fw-bold">R$129,00</p>
+                    <p class="fw-bold h4">R$129,00</p>
+                    <p>ou 6 x R$21,50</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -121,7 +99,8 @@
                 <img src="img/tenis.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">Tênis Asics</p>
-                    <p class="fw-bold">R$399,00</p>
+                    <p class="fw-bold h4">R$399,00</p>
+                    <p>ou 6 x R$66,50</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -129,7 +108,8 @@
                 <img src="img/esporte.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">Bola</p>
-                    <p class="fw-bold">R$180,00</p>
+                    <p class="fw-bold h4">R$180,00</p>
+                    <p>ou 6 x R$30,00</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -137,7 +117,8 @@
                 <img src="img/relogio.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">Relógio Hugo Boss</p>
-                    <p class="fw-bold">R$1299,00</p>
+                    <p class="fw-bold h4">R$1299,00</p>
+                    <p>ou 6 x R$216,50</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -152,7 +133,8 @@
                 <img src="img/promocao1.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">Vestido Sara</p>
-                    <p class="fw-bold">R$249,00</p>
+                    <p class="fw-bold h4">R$249,00</p>
+                    <p>ou 6 x R$41,50</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -160,7 +142,8 @@
                 <img src="img/promocao2.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">sandália Marisa</p>
-                    <p class="fw-bold">R$79,00</p>
+                    <p class="fw-bold h4">R$79,00</p>
+                    <p>ou 6 x R$13,17</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -168,7 +151,8 @@
                 <img src="img/promocao3.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">Sapato Veneza</p>
-                    <p class="fw-bold">R$89,00</p>
+                    <p class="fw-bold h4">R$89,00</p>
+                    <p>ou 6 x R$14,83</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -176,7 +160,8 @@
                 <img src="img/promocao4.png" alt="profile" class="card-img-top">
                 <div class="card-body">
                     <p class="text-muted fw-bold">sandália Nara</p>
-                    <p class="fw-bold">R$49,00</p>
+                    <p class="fw-bold h4">R$49,00</p>
+                    <p>ou 6 x R$8,17</p>
                     <a href="#" class="btn btn-success">Comprar</a>
                 </div>
             </div>
@@ -269,4 +254,5 @@
         </div>
     </div>
 </div>
+@endsection
 </html>
